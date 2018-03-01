@@ -1,0 +1,56 @@
+/* 
+  Localizable.strings
+  Turntable
+
+  Created by Apple on 2018/1/9.
+  Copyright © 2018年 mini. All rights reserved.
+*/
+
+"start" = "PK";
+"switch" = "Wheels";
+"edit" = "Edit";
+"title" = "Title";
+"item" = "Item";
+"import" = "Import";
+"save" = "Save";
+"inputitemtitle" = "Input item title...";
+"inputtitle" = "Input title...";
+"deletedetail" = "Do you want to delete this wheel?";
+"delete" = "Delete";
+"confirm" = "Confirm";
+"cancel" = "Cancel";
+"new" = "New";
+"about" = "About";
+
+"selecteditem" = "Selected";
+"isusing" = "In Using";
+"dare" = "dare";
+"truth" = "truth";
+
+"appname" = "PK10";
+
+
+//"start" = "开始";
+//"switch" = "选择转盘";
+//"edit" = "编辑";
+//"title" = "标题";
+//"item" = "项";
+//"import" = "导入";
+//"save" = "保存";
+//"inputitemtitle" = "输入项目名...";
+//"inputtitle" = "输入转盘名...";
+//"deletedetail" = "确认删除转盘吗？";
+//"delete" = "删除";
+//"confirm" = "确认";
+//"cancel" = "取消";
+//"new" = "新建";
+//"about" = "关于";
+//
+//
+//"selecteditem" = "已选中";
+//"isusing" = "正在用";
+//"dare" = "大冒险";
+//"truth" = "真心话";
+//
+//"appname" = "时时彩盘";
+

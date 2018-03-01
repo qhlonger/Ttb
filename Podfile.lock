@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (4.5.1)
+  - BmobSDK (2.2.3):
+    - WechatOpenSDK (~> 1.7.7)
+  - GRDB.swift (2.3.1)
+  - IQKeyboardManagerSwift (5.0.6)
+  - JCore (1.1.6)
+  - JPush (3.0.7):
+    - JCore (~> 1.1.6)
+  - PKHUD (5.0.0)
+  - SideMenu (3.1.4)
+  - SnapKit (4.0.0)
+  - WechatOpenSDK (1.7.9)
+
+DEPENDENCIES:
+  - Alamofire
+  - BmobSDK
+  - GRDB.swift
+  - IQKeyboardManagerSwift
+  - JPush
+  - PKHUD
+  - SideMenu
+  - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  BmobSDK: dd61cf835d063303fb53b29465fcb3e9718b36f2
+  GRDB.swift: fa0742c1b3d8aa6e3610a05ebf7c6b9e77589726
+  IQKeyboardManagerSwift: 02bfbb0dff71c66d0ab77d80d25dfce0c3717735
+  JCore: 18fc8725124f26e55625eaf224659b3a999dcf63
+  JPush: 111b79b8a0169ab8fd4c486dac3ed166ed69293e
+  PKHUD: 3c001512c6e002091184197a8de7a20420786e3b
+  SideMenu: 99021e70b3f2eee65b5dd88e4274d09031b1221e
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  WechatOpenSDK: 1fe7e3b07db860d6a936c3ff4a5aba6b890958d9
+
+PODFILE CHECKSUM: 954b50dedb6a12fb7ccf75ee33c63f4bac3a9ab4
+
+COCOAPODS: 1.3.1

@@ -1,0 +1,919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1828F8831FF8BA0700DA17BC /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828F8821FF8BA0700DA17BC /* AboutVC.swift */; };
+		18B40FD22004CF0300A412C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18B40FD42004CF0300A412C3 /* InfoPlist.strings */; };
+		18B40FD82004D0C200A412C3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18B40FDA2004D0C200A412C3 /* Localizable.strings */; };
+		3D02367B1FC16C5B007590F3 /* EditFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D02367A1FC16C5B007590F3 /* EditFooter.swift */; };
+		3D214D571FB7319000516396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D214D561FB7319000516396 /* AppDelegate.swift */; };
+		3D214D591FB7319000516396 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D214D581FB7319000516396 /* ViewController.swift */; };
+		3D214D5C1FB7319000516396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D214D5A1FB7319000516396 /* Main.storyboard */; };
+		3D214D5E1FB7319000516396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D214D5D1FB7319000516396 /* Assets.xcassets */; };
+		3D214D611FB7319000516396 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D214D5F1FB7319000516396 /* LaunchScreen.storyboard */; };
+		3D214D6C1FB7319000516396 /* TurntableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D214D6B1FB7319000516396 /* TurntableTests.swift */; };
+		3D214D771FB7319000516396 /* TurntableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D214D761FB7319000516396 /* TurntableUITests.swift */; };
+		3D33B08C1FB9B15200AFF449 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D33B08B1FB9B15200AFF449 /* ResultViewController.swift */; };
+		3D3B23951FBD7DD9005D90D6 /* EditTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B23941FBD7DD9005D90D6 /* EditTitleCell.swift */; };
+		3D3B23971FBD7E10005D90D6 /* EditHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B23961FBD7E10005D90D6 /* EditHeader.swift */; };
+		3D3B23991FBDA9E1005D90D6 /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B23981FBDA9E1005D90D6 /* AlertVC.swift */; };
+		3D4960711FBECD98006DDD68 /* options.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D4960701FBECD98006DDD68 /* options.json */; };
+		3D4960731FBEE37F006DDD68 /* ImportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4960721FBEE37F006DDD68 /* ImportViewController.swift */; };
+		3D4960751FBEE7D5006DDD68 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4960741FBEE7D5006DDD68 /* ItemCell.swift */; };
+		3D645C2F1FC055DC00D890D4 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D645C2E1FC055DC00D890D4 /* ResultView.swift */; };
+		3DACB8261FF240DC000CEAFB /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DACB8251FF240DC000CEAFB /* BottomView.swift */; };
+		3DC670C01FB8173400B62674 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC670BF1FB8173400B62674 /* EditViewController.swift */; };
+		3DC670C21FB817BC00B62674 /* EditItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC670C11FB817BC00B62674 /* EditItemViewController.swift */; };
+		3DC670C41FB8221600B62674 /* EditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC670C31FB8221600B62674 /* EditCell.swift */; };
+		3DC670C61FB825C600B62674 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC670C51FB825C600B62674 /* InfoViewController.swift */; };
+		3DC670C81FB825FF00B62674 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC670C71FB825FF00B62674 /* FeedbackViewController.swift */; };
+		3DC670CA1FB8360400B62674 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC670C91FB8360400B62674 /* DrawerViewController.swift */; };
+		3DC670CC1FB8476100B62674 /* DrawerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC670CB1FB8476100B62674 /* DrawerCell.swift */; };
+		3DC670D01FB84C4900B62674 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC670CF1FB84C4900B62674 /* Util.swift */; };
+		3DC670D61FB864BE00B62674 /* TTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC670D51FB864BE00B62674 /* TTButton.swift */; };
+		3DC670D81FB87B1E00B62674 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC670D71FB87B1E00B62674 /* PieChart.swift */; };
+		3DFB5D451FBC50E900173BBA /* AppDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFB5D441FBC50E900173BBA /* AppDatabase.swift */; };
+		89347757F7EC1CE4D1C5FA89 /* Pods_TurntableUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9121EE159D93EBB22826C4B8 /* Pods_TurntableUITests.framework */; };
+		8D53AEBF60C659FB19F6E6F2 /* Pods_TurntableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A318FD20146B868554DBCBA5 /* Pods_TurntableTests.framework */; };
+		A2C2CC3B00A3EA9FF9BCFACB /* Pods_Turntable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBD5D80CF2C78198F4F43A4 /* Pods_Turntable.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D214D681FB7319000516396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D214D4B1FB7319000516396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D214D521FB7319000516396;
+			remoteInfo = Turntable;
+		};
+		3D214D731FB7319000516396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D214D4B1FB7319000516396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D214D521FB7319000516396;
+			remoteInfo = Turntable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1828F8821FF8BA0700DA17BC /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		18B40FCD2004AED200A412C3 /* TBrigdeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBrigdeHeader.h; sourceTree = "<group>"; };
+		18B40FCE2004CAB800A412C3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		18B40FCF2004CAB800A412C3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		18B40FD32004CF0300A412C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18B40FD52004CF3000A412C3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		18B40FD92004D0C200A412C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		18B40FDB2004D0C400A412C3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		18D13FF5200726300045CFAC /* Turntable.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Turntable.entitlements; sourceTree = "<group>"; };
+		1ED468AAB034E8DFF7995473 /* Pods-Turntable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Turntable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Turntable/Pods-Turntable.debug.xcconfig"; sourceTree = "<group>"; };
+		3A25A465517BDC4D94D585CC /* Pods-TurntableUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurntableUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TurntableUITests/Pods-TurntableUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D02367A1FC16C5B007590F3 /* EditFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFooter.swift; sourceTree = "<group>"; };
+		3D214D531FB7319000516396 /* Turntable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turntable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D214D561FB7319000516396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D214D581FB7319000516396 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D214D5B1FB7319000516396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D214D5D1FB7319000516396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D214D601FB7319000516396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D214D621FB7319000516396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D214D671FB7319000516396 /* TurntableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurntableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D214D6B1FB7319000516396 /* TurntableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurntableTests.swift; sourceTree = "<group>"; };
+		3D214D6D1FB7319000516396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D214D721FB7319000516396 /* TurntableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurntableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D214D761FB7319000516396 /* TurntableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurntableUITests.swift; sourceTree = "<group>"; };
+		3D214D781FB7319000516396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D33B08B1FB9B15200AFF449 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		3D3B23941FBD7DD9005D90D6 /* EditTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTitleCell.swift; sourceTree = "<group>"; };
+		3D3B23961FBD7E10005D90D6 /* EditHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditHeader.swift; sourceTree = "<group>"; };
+		3D3B23981FBDA9E1005D90D6 /* AlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertVC.swift; sourceTree = "<group>"; };
+		3D4960701FBECD98006DDD68 /* options.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = options.json; sourceTree = "<group>"; };
+		3D4960721FBEE37F006DDD68 /* ImportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportViewController.swift; sourceTree = "<group>"; };
+		3D4960741FBEE7D5006DDD68 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		3D645C2E1FC055DC00D890D4 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		3DACB8251FF240DC000CEAFB /* BottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		3DC670BF1FB8173400B62674 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		3DC670C11FB817BC00B62674 /* EditItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemViewController.swift; sourceTree = "<group>"; };
+		3DC670C31FB8221600B62674 /* EditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCell.swift; sourceTree = "<group>"; };
+		3DC670C51FB825C600B62674 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		3DC670C71FB825FF00B62674 /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		3DC670C91FB8360400B62674 /* DrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		3DC670CB1FB8476100B62674 /* DrawerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerCell.swift; sourceTree = "<group>"; };
+		3DC670CF1FB84C4900B62674 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		3DC670D51FB864BE00B62674 /* TTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTButton.swift; sourceTree = "<group>"; };
+		3DC670D71FB87B1E00B62674 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		3DFB5D441FBC50E900173BBA /* AppDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDatabase.swift; sourceTree = "<group>"; };
+		406716C0BE13B726083BE210 /* Pods-Turntable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Turntable.release.xcconfig"; path = "Pods/Target Support Files/Pods-Turntable/Pods-Turntable.release.xcconfig"; sourceTree = "<group>"; };
+		66E5298151A2454F02674C26 /* Pods-TurntableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurntableTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TurntableTests/Pods-TurntableTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CD45001E5DCC1BBF330D194 /* Pods-TurntableTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurntableTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TurntableTests/Pods-TurntableTests.release.xcconfig"; sourceTree = "<group>"; };
+		82B973DBBA4C5E6C3D92EF29 /* Pods-TurntableUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurntableUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TurntableUITests/Pods-TurntableUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9121EE159D93EBB22826C4B8 /* Pods_TurntableUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurntableUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A318FD20146B868554DBCBA5 /* Pods_TurntableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurntableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBD5D80CF2C78198F4F43A4 /* Pods_Turntable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Turntable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D214D501FB7319000516396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C2CC3B00A3EA9FF9BCFACB /* Pods_Turntable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D214D641FB7319000516396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D53AEBF60C659FB19F6E6F2 /* Pods_TurntableTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D214D6F1FB7319000516396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89347757F7EC1CE4D1C5FA89 /* Pods_TurntableUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D214D4A1FB7319000516396 = {
+			isa = PBXGroup;
+			children = (
+				3D214D551FB7319000516396 /* Turntable */,
+				3D214D6A1FB7319000516396 /* TurntableTests */,
+				3D214D751FB7319000516396 /* TurntableUITests */,
+				3D214D541FB7319000516396 /* Products */,
+				69415B3AF481C3E16EF6A9F5 /* Pods */,
+				96FC7E2372A63BDD3437794A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D214D541FB7319000516396 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D214D531FB7319000516396 /* Turntable.app */,
+				3D214D671FB7319000516396 /* TurntableTests.xctest */,
+				3D214D721FB7319000516396 /* TurntableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D214D551FB7319000516396 /* Turntable */ = {
+			isa = PBXGroup;
+			children = (
+				18D13FF5200726300045CFAC /* Turntable.entitlements */,
+				3D214D561FB7319000516396 /* AppDelegate.swift */,
+				1828F8821FF8BA0700DA17BC /* AboutVC.swift */,
+				3DFB5D441FBC50E900173BBA /* AppDatabase.swift */,
+				3D214D581FB7319000516396 /* ViewController.swift */,
+				3DACB8251FF240DC000CEAFB /* BottomView.swift */,
+				3DC670C91FB8360400B62674 /* DrawerViewController.swift */,
+				3DC670BF1FB8173400B62674 /* EditViewController.swift */,
+				3D4960721FBEE37F006DDD68 /* ImportViewController.swift */,
+				3DC670C11FB817BC00B62674 /* EditItemViewController.swift */,
+				3D33B08B1FB9B15200AFF449 /* ResultViewController.swift */,
+				3DC670C51FB825C600B62674 /* InfoViewController.swift */,
+				3DC670C71FB825FF00B62674 /* FeedbackViewController.swift */,
+				3DC670C31FB8221600B62674 /* EditCell.swift */,
+				3D4960741FBEE7D5006DDD68 /* ItemCell.swift */,
+				3DC670CB1FB8476100B62674 /* DrawerCell.swift */,
+				3D3B23941FBD7DD9005D90D6 /* EditTitleCell.swift */,
+				3D3B23961FBD7E10005D90D6 /* EditHeader.swift */,
+				3D02367A1FC16C5B007590F3 /* EditFooter.swift */,
+				3DC670CF1FB84C4900B62674 /* Util.swift */,
+				3DC670D51FB864BE00B62674 /* TTButton.swift */,
+				3DC670D71FB87B1E00B62674 /* PieChart.swift */,
+				3D3B23981FBDA9E1005D90D6 /* AlertVC.swift */,
+				3D645C2E1FC055DC00D890D4 /* ResultView.swift */,
+				18B40FCD2004AED200A412C3 /* TBrigdeHeader.h */,
+				18B40FDA2004D0C200A412C3 /* Localizable.strings */,
+				18B40FD42004CF0300A412C3 /* InfoPlist.strings */,
+				3D4960701FBECD98006DDD68 /* options.json */,
+				3D214D5A1FB7319000516396 /* Main.storyboard */,
+				3D214D5D1FB7319000516396 /* Assets.xcassets */,
+				3D214D5F1FB7319000516396 /* LaunchScreen.storyboard */,
+				3D214D621FB7319000516396 /* Info.plist */,
+			);
+			path = Turntable;
+			sourceTree = "<group>";
+		};
+		3D214D6A1FB7319000516396 /* TurntableTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D214D6B1FB7319000516396 /* TurntableTests.swift */,
+				3D214D6D1FB7319000516396 /* Info.plist */,
+			);
+			path = TurntableTests;
+			sourceTree = "<group>";
+		};
+		3D214D751FB7319000516396 /* TurntableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D214D761FB7319000516396 /* TurntableUITests.swift */,
+				3D214D781FB7319000516396 /* Info.plist */,
+			);
+			path = TurntableUITests;
+			sourceTree = "<group>";
+		};
+		69415B3AF481C3E16EF6A9F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1ED468AAB034E8DFF7995473 /* Pods-Turntable.debug.xcconfig */,
+				406716C0BE13B726083BE210 /* Pods-Turntable.release.xcconfig */,
+				66E5298151A2454F02674C26 /* Pods-TurntableTests.debug.xcconfig */,
+				6CD45001E5DCC1BBF330D194 /* Pods-TurntableTests.release.xcconfig */,
+				3A25A465517BDC4D94D585CC /* Pods-TurntableUITests.debug.xcconfig */,
+				82B973DBBA4C5E6C3D92EF29 /* Pods-TurntableUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96FC7E2372A63BDD3437794A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDBD5D80CF2C78198F4F43A4 /* Pods_Turntable.framework */,
+				A318FD20146B868554DBCBA5 /* Pods_TurntableTests.framework */,
+				9121EE159D93EBB22826C4B8 /* Pods_TurntableUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D214D521FB7319000516396 /* Turntable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D214D7B1FB7319000516396 /* Build configuration list for PBXNativeTarget "Turntable" */;
+			buildPhases = (
+				A3AF6A580388D918F70DA52B /* [CP] Check Pods Manifest.lock */,
+				3D214D4F1FB7319000516396 /* Sources */,
+				3D214D501FB7319000516396 /* Frameworks */,
+				3D214D511FB7319000516396 /* Resources */,
+				2A36D4CBC520E0EDB536DC2A /* [CP] Embed Pods Frameworks */,
+				7E1B1241B7835506A505A5FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Turntable;
+			productName = Turntable;
+			productReference = 3D214D531FB7319000516396 /* Turntable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D214D661FB7319000516396 /* TurntableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D214D7E1FB7319000516396 /* Build configuration list for PBXNativeTarget "TurntableTests" */;
+			buildPhases = (
+				17B4E0C5478422C350B41C15 /* [CP] Check Pods Manifest.lock */,
+				3D214D631FB7319000516396 /* Sources */,
+				3D214D641FB7319000516396 /* Frameworks */,
+				3D214D651FB7319000516396 /* Resources */,
+				587ABFFB87B1CAEAE527455A /* [CP] Embed Pods Frameworks */,
+				AA25C0745FB9CE834B38BBD9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D214D691FB7319000516396 /* PBXTargetDependency */,
+			);
+			name = TurntableTests;
+			productName = TurntableTests;
+			productReference = 3D214D671FB7319000516396 /* TurntableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D214D711FB7319000516396 /* TurntableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D214D811FB7319000516396 /* Build configuration list for PBXNativeTarget "TurntableUITests" */;
+			buildPhases = (
+				5DE2C75D9D4E421966565BB0 /* [CP] Check Pods Manifest.lock */,
+				3D214D6E1FB7319000516396 /* Sources */,
+				3D214D6F1FB7319000516396 /* Frameworks */,
+				3D214D701FB7319000516396 /* Resources */,
+				4B78C510679DB0B57BC365E8 /* [CP] Embed Pods Frameworks */,
+				A87070862CA187E31BE5752B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D214D741FB7319000516396 /* PBXTargetDependency */,
+			);
+			name = TurntableUITests;
+			productName = TurntableUITests;
+			productReference = 3D214D721FB7319000516396 /* TurntableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D214D4B1FB7319000516396 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = mini;
+				TargetAttributes = {
+					3D214D521FB7319000516396 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					3D214D661FB7319000516396 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D214D521FB7319000516396;
+					};
+					3D214D711FB7319000516396 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D214D521FB7319000516396;
+					};
+				};
+			};
+			buildConfigurationList = 3D214D4E1FB7319000516396 /* Build configuration list for PBXProject "Turntable" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 3D214D4A1FB7319000516396;
+			productRefGroup = 3D214D541FB7319000516396 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D214D521FB7319000516396 /* Turntable */,
+				3D214D661FB7319000516396 /* TurntableTests */,
+				3D214D711FB7319000516396 /* TurntableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D214D511FB7319000516396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4960711FBECD98006DDD68 /* options.json in Resources */,
+				18B40FD82004D0C200A412C3 /* Localizable.strings in Resources */,
+				3D214D611FB7319000516396 /* LaunchScreen.storyboard in Resources */,
+				3D214D5E1FB7319000516396 /* Assets.xcassets in Resources */,
+				3D214D5C1FB7319000516396 /* Main.storyboard in Resources */,
+				18B40FD22004CF0300A412C3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D214D651FB7319000516396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D214D701FB7319000516396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17B4E0C5478422C350B41C15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TurntableTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A36D4CBC520E0EDB536DC2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Turntable/Pods-Turntable-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GRDB.swift/GRDB.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Turntable/Pods-Turntable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B78C510679DB0B57BC365E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TurntableUITests/Pods-TurntableUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		587ABFFB87B1CAEAE527455A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TurntableTests/Pods-TurntableTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DE2C75D9D4E421966565BB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TurntableUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E1B1241B7835506A505A5FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Turntable/Pods-Turntable-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3AF6A580388D918F70DA52B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Turntable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A87070862CA187E31BE5752B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TurntableUITests/Pods-TurntableUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA25C0745FB9CE834B38BBD9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TurntableTests/Pods-TurntableTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D214D4F1FB7319000516396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D33B08C1FB9B15200AFF449 /* ResultViewController.swift in Sources */,
+				3DC670D01FB84C4900B62674 /* Util.swift in Sources */,
+				3D214D591FB7319000516396 /* ViewController.swift in Sources */,
+				3DC670CA1FB8360400B62674 /* DrawerViewController.swift in Sources */,
+				3D214D571FB7319000516396 /* AppDelegate.swift in Sources */,
+				3D02367B1FC16C5B007590F3 /* EditFooter.swift in Sources */,
+				1828F8831FF8BA0700DA17BC /* AboutVC.swift in Sources */,
+				3D3B23951FBD7DD9005D90D6 /* EditTitleCell.swift in Sources */,
+				3D4960751FBEE7D5006DDD68 /* ItemCell.swift in Sources */,
+				3DC670C41FB8221600B62674 /* EditCell.swift in Sources */,
+				3DC670C81FB825FF00B62674 /* FeedbackViewController.swift in Sources */,
+				3DC670C01FB8173400B62674 /* EditViewController.swift in Sources */,
+				3D4960731FBEE37F006DDD68 /* ImportViewController.swift in Sources */,
+				3DC670D61FB864BE00B62674 /* TTButton.swift in Sources */,
+				3D3B23971FBD7E10005D90D6 /* EditHeader.swift in Sources */,
+				3D3B23991FBDA9E1005D90D6 /* AlertVC.swift in Sources */,
+				3DACB8261FF240DC000CEAFB /* BottomView.swift in Sources */,
+				3DC670CC1FB8476100B62674 /* DrawerCell.swift in Sources */,
+				3DFB5D451FBC50E900173BBA /* AppDatabase.swift in Sources */,
+				3DC670D81FB87B1E00B62674 /* PieChart.swift in Sources */,
+				3D645C2F1FC055DC00D890D4 /* ResultView.swift in Sources */,
+				3DC670C61FB825C600B62674 /* InfoViewController.swift in Sources */,
+				3DC670C21FB817BC00B62674 /* EditItemViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D214D631FB7319000516396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D214D6C1FB7319000516396 /* TurntableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D214D6E1FB7319000516396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D214D771FB7319000516396 /* TurntableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D214D691FB7319000516396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D214D521FB7319000516396 /* Turntable */;
+			targetProxy = 3D214D681FB7319000516396 /* PBXContainerItemProxy */;
+		};
+		3D214D741FB7319000516396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D214D521FB7319000516396 /* Turntable */;
+			targetProxy = 3D214D731FB7319000516396 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18B40FD42004CF0300A412C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B40FD32004CF0300A412C3 /* en */,
+				18B40FD52004CF3000A412C3 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18B40FDA2004D0C200A412C3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B40FD92004D0C200A412C3 /* en */,
+				18B40FDB2004D0C400A412C3 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		3D214D5A1FB7319000516396 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D214D5B1FB7319000516396 /* Base */,
+				18B40FCE2004CAB800A412C3 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D214D5F1FB7319000516396 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D214D601FB7319000516396 /* Base */,
+				18B40FCF2004CAB800A412C3 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D214D791FB7319000516396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D214D7A1FB7319000516396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D214D7C1FB7319000516396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ED468AAB034E8DFF7995473 /* Pods-Turntable.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Turntable/Turntable.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55E66M3MJ7;
+				INFOPLIST_FILE = Turntable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spin.now.for.ipad.and.iphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/Turntable/TBrigdeHeader.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D214D7D1FB7319000516396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 406716C0BE13B726083BE210 /* Pods-Turntable.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Turntable/Turntable.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55E66M3MJ7;
+				INFOPLIST_FILE = Turntable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spin.now.for.ipad.and.iphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/Turntable/TBrigdeHeader.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D214D7F1FB7319000516396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E5298151A2454F02674C26 /* Pods-TurntableTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GPP854SGSK;
+				INFOPLIST_FILE = TurntableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mini.TurntableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turntable.app/Turntable";
+			};
+			name = Debug;
+		};
+		3D214D801FB7319000516396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CD45001E5DCC1BBF330D194 /* Pods-TurntableTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GPP854SGSK;
+				INFOPLIST_FILE = TurntableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mini.TurntableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turntable.app/Turntable";
+			};
+			name = Release;
+		};
+		3D214D821FB7319000516396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A25A465517BDC4D94D585CC /* Pods-TurntableUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GPP854SGSK;
+				INFOPLIST_FILE = TurntableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mini.TurntableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Turntable;
+			};
+			name = Debug;
+		};
+		3D214D831FB7319000516396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82B973DBBA4C5E6C3D92EF29 /* Pods-TurntableUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GPP854SGSK;
+				INFOPLIST_FILE = TurntableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mini.TurntableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Turntable;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D214D4E1FB7319000516396 /* Build configuration list for PBXProject "Turntable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D214D791FB7319000516396 /* Debug */,
+				3D214D7A1FB7319000516396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D214D7B1FB7319000516396 /* Build configuration list for PBXNativeTarget "Turntable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D214D7C1FB7319000516396 /* Debug */,
+				3D214D7D1FB7319000516396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D214D7E1FB7319000516396 /* Build configuration list for PBXNativeTarget "TurntableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D214D7F1FB7319000516396 /* Debug */,
+				3D214D801FB7319000516396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D214D811FB7319000516396 /* Build configuration list for PBXNativeTarget "TurntableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D214D821FB7319000516396 /* Debug */,
+				3D214D831FB7319000516396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D214D4B1FB7319000516396 /* Project object */;
+}
